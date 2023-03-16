@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="./coder.png">
+    <link rel="stylesheet" href="./Style.css">
+
+<style>
+       #image-1{
+            height: 2000px;
+            width: 1330px;
+            border: 8px solid yellowgreen;
+        }
+        #Container-1{
+            
+            height: 100px;
+            width: 300px;
+            background-color:black;
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            border: 8px solid red;
+            border-color: red;
+            border-top-left-radius:20px;
+            border-top-right-radius:20px;
+            border-bottom-right-radius:20px;
+            border-bottom-left-radius:20px;
+            }
+            #Container-2{
+            
+            height: 100px;
+            width: 500px;
+            background-color:black;
+            position: absolute;
+            top: 5%;
+            left: 30%;
+            border: 8px solid red;
+            border-color: red;
+            border-top-left-radius:50px;
+            border-top-right-radius:50px;
+            border-bottom-right-radius:50px;
+            border-bottom-left-radius:50px;
+            }
+            #Container-3{
+            
+            height: 150px;
+            width: 300px;
+            background-color:black;
+            position: absolute;
+            top: 5%;
+            left: 70%;
+            border: 8px solid red;
+            border-color: red;
+            border-top-left-radius:30px;
+            border-top-right-radius:30px;
+            border-bottom-right-radius:30px;
+            border-bottom-left-radius:30px;
+            }
+            #Container-dotted{
+                height: 700px;
+                width: 420px;
+                border: 8px dashed red;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                color: brown;
+            }
+            #menu{
+            height: 60px;
+            width:600px;
+            background-color:black;
+            position: absolute;
+            top: 180%;
+            left: 30%;
+            border: 8px solid red;
+            border-color: red;
+            border-top-left-radius:40px;
+            border-top-right-radius:40px;
+            border-bottom-right-radius:40px;
+            border-bottom-left-radius:40px;
+            }
+            #menu-text{
+                font-size: 50px;
+                color: white;
+                text-transform: uppercase;
+                text-align: center;
+
+            }
+            #box-1{
+            height:300px;
+            width:300px;
+            background-color:cyan;
+            position: absolute;
+            top: 200%;
+            left:5%;
+            border: 5px solid green;
+            
+            border-top-left-radius:40px;
+            border-top-right-radius:40px;
+            border-bottom-right-radius:40px;
+            border-bottom-left-radius:40px;                
+            }
+            #box-2{
+            height:300px;
+            width:300px;
+            background-color:cyan;
+            position: absolute;
+            top:200%;
+            left:35%;
+            border: 5px solid green;
+            border-top-left-radius:40px;
+            border-top-right-radius:40px;
+            border-bottom-right-radius:40px;
+            border-bottom-left-radius:40px; 
+                
+            }
+            #box-3{
+            height:300px;
+            width:300px;
+            background-color:cyan;
+            position: absolute;
+            top:200%;
+            left:65%;
+            border: 5px solid green;
+            border-top-left-radius:40px;
+            border-top-right-radius:40px;
+            border-bottom-right-radius:40px;
+            border-bottom-left-radius:40px; 
+                
+            }
+            #box-4{
+            height:300px;
+            width:300px;
+            background-color:cyan;
+            position: absolute;
+            top:260%;
+            left:5%;
+            border: 5px solid green;
+            border-top-left-radius:40px;
+            border-top-right-radius:40px;
+            border-bottom-right-radius:40px;
+            border-bottom-left-radius:40px; 
+            }
+            #box-5{
+            height:300px;
+            width:300px;
+            background-color:cyan;
+            position: absolute;
+            top:260%;
+            left:35%;
+            border: 5px solid green;
+            border-top-left-radius:40px;
+            border-top-right-radius:40px;
+            border-bottom-right-radius:40px;
+            border-bottom-left-radius:40px; 
+            }
+
+            #box-6{
+            height:300px;
+            width:300px;
+            background-color:cyan;
+            position: absolute;
+            top:260%;
+            left:65%;
+            border: 5px solid green;
+            border-top-left-radius:40px;
+            border-top-right-radius:40px;
+            border-bottom-right-radius:40px;
+            border-bottom-left-radius:40px; 
+            }
+            #Flex-box-7{
+                border: 10px solid gray;
+                height:350px;
+                width:350px;
+                background-color: green;
+                border-radius: 50%;
+                position: absolute;
+                top: 500px;
+                left: 50px;
+                
+            }
+            #Circle-Heading{
+                height: 20px;
+                width: 180px;
+                position: relative;
+                top:40px;
+                left:5px;
+                background-color: cyan;
+                text-decoration: underline;
+                text-transform: uppercase;
+            }
+            /* #Existing-Offer{
+                background-color:cyan;
+                height: 30px;
+                width: 250px;
+                position: absolute;
+                left: 15%;
+                top: 5%;
+                text-align: center;
+                border-radius: 100%;
+            } */
+
+            #existing-hr-1{
+                position: relative; 
+                top: 50px;
+                left:5px;
+
+                background-color: gray;
+                height: 1px;
+                width: 322px;
+            }
+
+            #special-thali{
+                height: 100px;
+                width: 250px;
+                /* background-color: black; */
+                position:relative;
+                top: 40px;
+                left:45px;
+                
+            }
+            #existing-hr-2{
+                position: relative; 
+                top: 50px;
+                left:18px;
+                background-color: gray;
+                height: 1px;
+                width: 322px;
+            }
+
+</style>
+</head>
+<body>
+    
+       
+        <img id="image-1" src="D:\minevelve\PrepBytes\CSS Assignment\Hands On 2\Cloud.jpg">
+         
+        <div id="Container-1">
+            <i style="color: white;font-size: 32.3px;">
+                <center>Welcome to Dhaba you get the great quality</center> </i>              
+        </div>
+        <div id="Container-2">
+            <i style="color: white;font-size: 32.3px;">
+                <center>Home Menu review contact us </center> </i>              
+        </div>
+        <div id="Container-3">
+            <i style="color: white;font-size: 20px;">
+                <center>
+                    <p>Email:store@gmail.com</p>
+                    <p>If you find any compalin</p>
+                    <p>Contact on-9455******</p>
+                </center>
+            </i>              
+        </div>
+        <div id="Container-dotted">
+        <form>
+            <center><h1>PLEASE REGISTER HERE</h1></center>
+            <hr style="background-color: grey;height: 1px;">
+            <center><h4 style="margin-bottom: 0px;">First Name:</h4></center>
+            <center>
+                <input type="text" name="firstname" style="text-align: center;" placeholder="Enter your first name">
+            </center>
+            
+            <center><h4 style="margin-bottom: 0px;">Last Name:</h4></center>
+            <center>
+                <input type="text" name="firstname" style="text-align: center;" placeholder="Enter your Last name">
+            </center>
+            
+            
+            <center><h4 style="margin-bottom: 0px;">Your Age:</h4></center>
+            <center>
+                <input type="number" name="firstname" style="text-align: center;" placeholder="your age"/>
+            </center>
+            
+            <center><h4 style="margin-bottom: 0px;">Email:</h4></center>
+            <center>
+                <input type="email" name="firstname" style="text-align: center;" placeholder="myEmail"/>
+            </center>
+
+            <center><h4 style="margin-bottom: 0px;">DOB:</h4></center>
+            <center>
+                <input type="date" name="firstname" style="text-align: center;" placeholder="Date Of Birth" />
+            </center>
+
+            <center><h4 style="margin-bottom: 0px;">Are you more than one person ?</h4></center>
+            <center>
+                <input type="checkbox" />
+            </center>
+               
+            <center><h4 style="margin-bottom: 0px;">Do you have cough and cold ?</h4></center>
+            <center>
+                <input type="checkbox" />
+            </center>
+               
+            <center><h4 style="margin-bottom: 0px;">Click Here</h4></center>
+            <center>
+                <input type="submit" value="submit"/>
+            </center>
+
+            <center><h4 style="margin-bottom: 0px;">Reset</h4></center>
+            <center>
+               <input type="reset" value="reset"/>
+               
+            </center>
+        </form>
+    </div>
+
+<div id="menu">
+    <center>
+        <i id="menu-text">menu</i>
+    </center>
+
+</div>
+<div id="box-1">
+    <h1 style="text-align: center;color: blue;">Starters</h1>
+    <hr>
+  <ul>
+      <li style="text-align: center;">Paneer Teeka</li>
+      <li style="text-align: center;">Tomato Shoas</li>
+      <li style="text-align: center;">Afgani Chaap</li>
+      <li style="text-align: center;">Veg Raita</li>
+      <li style="text-align: center;">Gol Gappa</li>
+      <li style="text-align: center;">Tikki</li>
+      <li style="text-align: center;">Fri Rice</li>
+  </ul>
+</div>
+<div id="box-2">
+    <h1 style="text-align: center;color: blue;">South Indian</h1>
+    <hr>
+  <ul>
+      <li style="text-align: center;">Masala Dosa</li>
+      <li style="text-align: center;">Idali Sambhar</li>
+      <li style="text-align: center;">Mix veg uttapan</li>
+      <li style="text-align: center;">Onion Dosa</li>
+      <li style="text-align: center;">Vada Sambhar</li>
+      <li style="text-align: center;">Paper plain Dosa</li>
+      <li style="text-align: center;">Tomato uttapan</li>
+  </ul>
+</div>
+
+<div id="box-3">
+    <h1 style="text-align: center;color: blue;">Indian Kitchan</h1>
+    <hr>
+  <ul>
+      <li style="text-align: center;">Shahai Paneer</li>
+      <li style="text-align: center;">Kadhai Paneer</li>
+      <li style="text-align: center;">Aloo Ghobi</li>
+      <li style="text-align: center;">Dal Makhni</li>
+      <li style="text-align: center;">Poori Sabji</li>
+      <li style="text-align: center;">Malai Kopta</li>
+      <li style="text-align: center;">Staff Capcicum</li>
+  </ul>
+</div>
+
+<div id="box-4">
+    <h1 style="text-align: center;color: blue;">Rice & Salad</h1>
+    <hr>
+  <ul>
+      <li style="text-align: center;">Plain Rice</li>
+      <li style="text-align: center;">Jeera Rice</li>
+      <li style="text-align: center;">Fried Rice</li>
+      <li style="text-align: center;">Veg Pulao</li>
+      <li style="text-align: center;">Veg Biryani</li>
+      <li style="text-align: center;">Cheesa Fried Price</li>
+      <li style="text-align: center;">Masala Salad</li>
+  </ul>
+</div>
+
+<div id="box-5">
+    <h1 style="text-align: center;color: blue;">Tandoori Bread </h1>
+    <hr>
+  <ul>
+      <li style="text-align: center;">Butter Roti</li>
+      <li style="text-align: center;">Misi Roti</li>
+      <li style="text-align: center;">Onion Pratha</li>
+      <li style="text-align: center;">Lucha Paratha</li>
+      <li style="text-align: center;">Buttur Naan</li>
+      <li style="text-align: center;">Paneer Paratha</li>
+      <li style="text-align: center;">Stuff Pratha</li>
+  </ul>
+</div>
+
+<div id="box-5">
+    <h1 style="text-align: center;color: blue;">Tandoori Bread </h1>
+    <hr>
+  <ul>
+      <li style="text-align: center;">Butter Roti</li>
+      <li style="text-align: center;">Misi Roti</li>
+      <li style="text-align: center;">Onion Pratha</li>
+      <li style="text-align: center;">Lucha Paratha</li>
+      <li style="text-align: center;">Buttur Naan</li>
+      <li style="text-align: center;">Paneer Paratha</li>
+      <li style="text-align: center;">Stuff Pratha</li>
+  </ul>
+</div>
+
+<div id="box-6">
+    <h1 style="text-align: center;color: blue;">Beverage and Other</h1>
+    <hr>
+  <ul>
+      <li style="text-align: center;">Cold Cofee</li>
+      <li style="text-align: center;">Coldrinks</li>
+      <li style="text-align: center;">Badam Milk</li>
+      <li style="text-align: center;">Mineral Water</li>
+      <li style="text-align: center;">Ice Cream</li>
+      <li style="text-align: center;">Cake</li>
+      <li style="text-align: center;">Gajar Halwa</li>
+  </ul>
+</div>
+
+<div id="Flex-box-7" > 
+<center>
+<div id="Existing-Offer">
+    
+    <h3 id="Circle-Heading">Existing Offer</h3>
+    <div id="existing-hr-1"></div>
+</div>
+</center>
+<div id="special-thali">
+    <H3>**GET OUR SPECIAL THALI FOR ONLY RS-100 ONLY ON MONDAY**</H3> 
+</div>
+<div id="existing-hr-2"></div>
+<br>
+<br>
+<br>
+<center>
+    <h3>PLZ RATE US OUT OF 5</h3>
+</center>
+</div>
+</img>
+</body>
+</html>
